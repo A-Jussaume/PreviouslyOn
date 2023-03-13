@@ -1,0 +1,66 @@
+.container-episode-unseen {
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(136, 136, 136, 0.5);
+  transition: 0.3s;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.container-episode-unseen .content-episode-unseen {
+  position: absolute; /* Position the background text */
+  text-align: center;
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+  color: #e7e7e7; /* Grey text */
+  font-size: 50px;
+  width: 100%; /* Full width */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#title-episode:hover {
+  cursor: pointer;
+}
+
+#episode {
+  font-size: 15px;
+}
+
+.button-menu {
+  width: 125px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17.5px;
+  background-color: #383838;
+  color: #adadad;
+  box-shadow: 5px 10px 18px #313131;
+  outline: none;
+  border: none;
+}
+
+.button-menu:hover {
+  cursor: pointer;
+  color: #1d1d1d;
+  background-color: #fa8231;
+  box-shadow: 5px 7px 12px #fa8231;
+  transition: 0.3s;
+}
+
+.button-menu:not(:hover) {
+  transition: 0.3s;
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.hidden-menu.active {
+  display: block;
+}
+
+#form-comment {
+  width: 273px;
+  /* padding: 15px; */
+}

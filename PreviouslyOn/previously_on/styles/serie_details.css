@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(63, 63, 63, 0.5);
+  /* box-shadow: 5px 10px 18px #8a8a8a; */
+  color: #adadad;
+  transition: 0.3s;
+  width: 100%;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.poster {
+  width: 20%;
+  border-radius: 15px;
+  padding-right: 15px;
+}
+
+.banner{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(129, 129, 129, 0.5);
+  cursor: pointer;
+}
+
+.container .content-details {
+  color: #adadad;
+  width: 100%;
+  min-height: 362px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#button-archiver {
+  color: #adadad;
+}
+
+#button-archiver:hover {
+  cursor: pointer;
+  color: #fa8231;
+  transition: 0.3s;
+}
+
+#button-archiver:not(:hover) {
+  color: #adadad;
+  transition: 0.3s;
+}
